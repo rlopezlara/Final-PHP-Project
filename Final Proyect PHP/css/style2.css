@@ -1,0 +1,32 @@
+html{
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+/* font the same for all pages */
+li,input,a, th{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,p{
+    font-family: 'Rubik', sans-serif;
+}
+/* main section with the table */
+section h2{
+    margin-bottom: 5vh;
+    color: black;
+    font-size: 40px;
+}
+.row{
+    margin-top: -5vh;
+    margin-bottom: 5vh;
+}
+/* move add button to the right */
+.btn-success{
+    margin-left: 30vw;
+}
+.btn-primary{
+    margin-top: 5vh;
+}
+/* move container underneath the header */
+.container{
+    margin-top: 25vh;
+}

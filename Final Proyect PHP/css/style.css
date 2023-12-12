@@ -1,0 +1,428 @@
+html{
+    margin: 0px;
+    scroll-behavior: smooth;
+    background-color: #f7f5f0;
+}
+
+li,imput,a{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,p{
+    font-family: 'Rubik', sans-serif;
+}
+
+/*Header Styling */
+header{
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+    transition: all .25s ease-out;
+    background-color: rgba(0,0,0,0.4);
+    top: 0;
+    left: 0;
+}
+header div{
+    width: auto;
+    height: 90%;
+    flex-grow: 1;
+}
+header div img{
+    width: auto;
+    height: 100%;
+}
+header menu{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+}
+header menu li{
+    padding: 10px 20px;
+
+}
+header menu li a{
+    color: #f4f4f4;
+    text-decoration: none;
+
+}
+/*video styling*/
+.video-section{
+    height: 100vh;
+    margin: 0px;
+}
+.background-video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.video-section h1{
+    height: 100%;
+    top: 0;
+    font-size: 68px;
+    text-shadow: 4px 2px 4px #0e0e0e;
+    color: rgba(60, 222, 13, 0.43);
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.video-section a{
+    position: absolute;
+    font-size: 68px;
+    /*text-shadow: 4px 2px 4px rgba(0,0,0,.3);*/
+    color: #f8f8f8;
+    top:80%;
+    left:48%;
+}
+.video-section div p a{
+    left: 500px;
+    right: 500px;
+
+}
+#titleOne{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 4px 2px 4px rgba(218, 136, 60, 0.91);
+    color: rgb(4, 38, 68);
+    margin-top: 10%;
+    margin-bottom: 1%;
+    height: 20vh;
+}
+#titleTwo{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 4px 2px 4px #0e0e0e;
+    color: rgba(218, 136, 60, 0.91);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.list1 {
+    display: flex;
+}
+
+.list1 div {
+    width: 100%;
+    height: auto;
+}
+
+.list1 div img {
+    width: 90%;
+    margin: 3%;
+    height: 80%;
+}
+
+.list2 {
+    display: flex;
+}
+
+.list2 div {
+    width: 100%;
+    height: auto;
+}
+
+.list2 div img {
+    width: 90%;
+    margin: 3%;
+    height: 80%;
+}
+.list2 div img:hover {
+    border: solid 4px rgba(60, 222, 13, 0.43);
+    cursor: pointer;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+}
+
+.list1 div img:hover {
+    border: solid 4px rgba(60, 222, 13, 0.43);
+    cursor: pointer;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+}
+.form-row{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 450px;
+}
+.form-row form{
+    border: solid 4px grey;
+    padding: 5%;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
+.background-video-container {
+    /*position: relative;*/
+    width: 100%;
+    height: 210vh;
+    /*overflow: hidden;*/
+
+}
+.background-video2{
+    /*position: absolute;*/
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+#final-button{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*Register styling*/
+.form-register{
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+.form-register div{
+    padding: 3%;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+}
+.form-register div h3{
+    color: #f4f4f4;
+    font-size: 35px;
+    margin-bottom: 5%;
+    text-shadow: 2px 2px 2px #0e0e0e;
+}
+.form-register div form p{
+ padding: 1%;
+}
+.form-register div form{
+    width: 100%;
+    height: auto;
+    box-shadow: 4px 2px 5px #000000;
+    padding: 5%;
+    background-color: rgba(134, 255, 106, 0.6);
+    border-radius: 20px;
+}
+.form-register div form input{
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 70%;
+}
+.form-register div form input:focus{
+    border: solid 4px #25d2f9;
+}
+.form-register div:nth-child(1){
+    color: green;
+}
+.btn-1{
+    background-color: #f4f4f4;
+    width: 31%;
+    border: solid 3px #0663b0;
+}
+.btn-1:hover{
+    background-color: #0663b0;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: 700;
+}
+/*footer styling*/
+
+footer {
+    padding: 5%;
+    display: flex;
+    background-color: #a0b0c5;
+}
+
+footer div {
+    width: 100%;
+}
+footer div ul li {
+    color: #fff;
+    font-size: 1em;
+    font-family: inherit;
+    list-style: none;
+    margin: 15px;
+
+}
+footer div ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+footer div ul li a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/*saving admin styling */
+.success-row{
+    padding: 5%;
+}
+.success-back-row{
+    padding: 5%;
+}
+.success-back-row div p{
+    color: #4db006;
+    font-size: 24px;
+}
+/*Sign in styling page*/
+
+.signin-form{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../img/backgroin-signin.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 130vh;
+}
+.signin-form div{
+    background-color: rgba(0,0,0,.5);
+    width: 50%;
+    padding: 3%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.signin-form div h3{
+    color: #f4f4f4;
+    padding: 3%;
+}
+.signin-form div form p input{
+    border-radius: 10px;
+    padding: 2%;
+    width: 60%;
+}
+.signin-form div form p input:focus{
+    border: solid 4px rgba(45, 180, 6, 0.43);
+}
+
+/*Sign in stlying*/
+
+.person-row{
+    height: 80vh;
+    padding: 5%;
+}
+.btn-success a{
+    color: #f4f4f4;
+    text-decoration: none;
+}
+.btn-danger a{
+    color: #f4f4f4;
+    text-decoration: none;
+}
+.btn-warning{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+/*display table styling*/
+
+#edit-page{
+    margin-top: 2%;
+   padding-top: 5%;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+.card{
+    margin-bottom: 7%;
+}
+/*validation page*/
+#error-message{
+    text-align: center;
+    padding: 5%;
+    color: #0663b0;
+}
+/*edit page styling*/
+
+.background-image{
+    background-image: url("../img/update-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+
+}
+.background-image div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+}
+.background-image h2{
+    font-size: 48px;
+    color: orange;
+    text-shadow: 4px 4px 4px #171515;
+    text-align: center;
+}
+/*Galley page styling */
+
+.view-images{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/gallery.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.view-images div{
+
+    padding: 5%;
+    border-radius: 5px;
+}
+.view-images div h1{
+    font-size: 3.5em;
+    color: #f4f4f4;
+}
+.image-row{
+    padding: 5%;
+    background-color: #f7f5f0;
+
+}
+
+.image-row div img{
+    box-shadow: 4px 3px 3px #a0b0c5;
+}
+.image-row div img:hover {
+    border: solid 4px rgba(60, 222, 13, 0.43);
+    cursor: pointer;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+}
+/*display-information*/
+#titleThree{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 4px 2px 4px rgba(60, 222, 13, 0.43);
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.container-display{
+    padding: 15%;
+}
